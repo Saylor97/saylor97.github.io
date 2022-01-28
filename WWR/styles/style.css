@@ -1,0 +1,79 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#background {
+    height: 725px;
+    background-color: silver;
+}
+#hero-msg h1, #her-msg h4 {
+    text-align: center;
+}
+#hero-img {
+    width: 100%;
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+main section {
+    text-align: center;
+}
+body {
+    background-color: #c1b098;
+}
+header {
+    background-color: #e9d2f4;
+}
+footer {
+    background-color: #e9d2f4;
+}
+footer h3 {
+    color: slategrey;
+}
+footer a {
+    color: slategrey;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+nav a:hover {
+    background-color: pink;
+    color: white;
+
+}
+h4 {
+    color: black;
+}
+
+.button-box {
+    text-align: center;
+}
+.book, .join {
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+}
+.book:hover, .join:hover {
+    background-color: beige;
+    color: blue;
+}
+.msg {
+    background-color: bisque;
+}
+.msg h2 {
+    color: goldenrod;
+}
+.msg p {
+    color: black;
+}
+.home-title {
+    color: black;
+}
+.icon {
+    width: 80px;
+}
