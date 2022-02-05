@@ -111,6 +111,7 @@ h4 {
 }
 .mountains {
     margin: 100px 0 200px;
+    border: 10px solid #39393a;
 }
 .msg {
     background-color: bisque;
