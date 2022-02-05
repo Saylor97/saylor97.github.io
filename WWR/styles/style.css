@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Oswald:wght@200&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -12,23 +14,40 @@
 #hero-img {
     width: 100%;
 }
+#logo_link {
+    padding-top: 5px;
+}
 
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 body {
     background-color: #c1b098;
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 header {
     background-color: #e9d2f4;
 }
 footer {
     background-color: #e9d2f4;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer h3 {
     color: slategrey;
@@ -46,6 +65,9 @@ nav a:hover {
     color: white;
 
 }
+h2 {
+    margin: 0;
+}
 h4 {
     color: black;
 }
@@ -57,23 +79,61 @@ h4 {
     background-color: antiquewhite;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: beige;
     color: blue;
 }
+.card-img {
+    border: 10px solid #39393a;
+}
+.memories {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.titles {
+    color: black;
+    font-family: "Lakki Reddy", sans-serif;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.mountains {
+    margin: 100px 0 200px;
+}
 .msg {
     background-color: bisque;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: goldenrod;
+    font-family: "Lakki Reddy", sans-serif;
 }
 .msg p {
     color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .home-title {
     color: black;
+    font-family: "Lakki Reddy", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
