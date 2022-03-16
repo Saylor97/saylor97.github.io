@@ -23,7 +23,11 @@
         </header>
         <main class="home-grid-2">
             <section class="vader">
-                <img class="SA-img-2" src="images/Vader with Troopers.jpg" alt="Vader with Troopers">
+                <audio>
+                    <source src="audio/Imperial-March.mp3"></source>
+                    <source src="audio/Imperial-March.ogg"></source>
+                </audio>
+                <img class="SA-img-v" src="images/Vader with Troopers.jpg" alt="Vader with Troopers">
                 <p class="v-msg-2">Be prepared to serve along side some of the Empires most important and influential leaders, such as Lord Vader. There are many differnt types of careers that we offer, and there are many skills that are learned from these careers.
                     You could be a tie fighter pilot, strom trooper, gunnery specialist, bomb defusal technician, or even cyber warfare. The options vary in speciality and degree. One could use the skills learned to persue great career choices outside of service,
                     skills that are needed in civilian life. If you should choose to retire from the military, there are great benifits that come. There will be a stipent that will be payed to you and your family monthly. Housing will be provided, and we will make
@@ -52,16 +56,26 @@
             <h3><a href="contact-us">Contact Us</a></h3>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
+                    <img class="social" src="images/facebook.png" alt="fb icon">
                 </a>
                 <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
+                    <img class="social" src="images/twitter.png" alt="twitter icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
+                    <img class="social" src="images/instagram.png" alt="instagram icon">
                 </a>
             </div>
         </footer>
     </div>
 </body>
+<script>
+var img=document.querySelector(".SA-img-v")
+var audio = document.getElementsByTagName("audio")[0];
+img.addEventListener("mouseover", function(){audio.play()})
+img.addEventListener("mouseout", function(){
+    audio.pause()
+    audio.currentTime = 0;
+})
+</script>
 </html>
+
