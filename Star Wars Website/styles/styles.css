@@ -151,9 +151,12 @@ body {
     border: 5px solid black;
 }
 
-.msg-3 {
+.asbc {
     grid-column: 4/5 span;
     grid-row: 2;
+}
+
+.msg-3 {
     width: 80%;
     text-align: center;
     margin-left: 50px;
@@ -166,7 +169,6 @@ body {
     grid-row: 2;
     text-align: left;
     width: 80%;
-    margin-top: 160px;
     line-height: 1.7;
     font-style: italic;
 }
@@ -269,19 +271,16 @@ footer h3 a:hover {
 
 /* Body */
 
-.home-grid-2 {
-    display: grid;
-    grid-template-columns: 2fr 50px 3fr;
-}
-
 .SA-img-v {
-    width: 700px;
+    width: 100%;
     height: 400px;
     grid-column: 1;
     grid-row: 1;
     margin-top: 40px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
+    object-fit: cover;
+    object-position: top;
 }
 
 .v-msg {
@@ -302,13 +301,15 @@ footer h3 a:hover {
 }
 
 .SA-img-s {
-    width: 700px;
+    width: 100%;
     height: 400px;
     grid-column: 1;
     grid-row: 2;
     margin-top: 40px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
+    object-fit: cover;
+    object-position: top;
 }
 
 .SA-msg-s {
@@ -329,7 +330,7 @@ footer h3 a:hover {
 }
 
 .SA-img-w {
-    width: 700px;
+    width: 100%;
     height: 400px;
     grid-column: 1;
     grid-row: 3;
@@ -337,6 +338,8 @@ footer h3 a:hover {
     margin-bottom: 40px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
+    object-fit: cover;
+    /* object-position: top; */
 }
 
 .SA-msg-w {
