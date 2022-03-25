@@ -358,7 +358,7 @@ footer h3 a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    #hero, #home-grid {
+    #hero, #home-grid, .home-grid-2 {
         display: block;
         height: auto;
     }
@@ -382,12 +382,18 @@ footer h3 a:hover {
     .msg-2 {
         margin-bottom: 0;
     }
+    .v-msg, .SA-msg-s, .SA-msg-w {
+        margin-top: 30px;
+    }
     .live-chat {
         margin-top: 100px;
     }
-    #background {
-        display: none;
+    .SA-img-v, .SA-img-s, .SA-img-w {
+        width: 100%;
     }
+    #background-1, #background-2, #background-3, #background-vader, #background-squad, #background-walker{
+        display: none;
+    } 
     footer {
         margin-top: 25px;
     }
